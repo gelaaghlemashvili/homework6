@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../font/CenturyGothic.eotCenturyGothic.eot');
+    src: url('../font/CenturyGothic.eotCenturyGothic.eot?#iefix') format('embedded-opentype'),
+        url('../font/CenturyGothic.eotCenturyGothic.woff2') format('woff2'),
+        url('../font/CenturyGothic.eotCenturyGothic.woff') format('woff'),
+        url('../font/CenturyGothic.eotCenturyGothic.ttf') format('truetype'),
+        url('../font/CenturyGothic.eotCenturyGothic.svg#CenturyGothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../font/CenturyGothic.eotUbuntu-Regular.eot');
+    src: url('../font/CenturyGothic.eotUbuntu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/CenturyGothic.eotUbuntu-Regular.woff2') format('woff2'),
+        url('../font/CenturyGothic.eotUbuntu-Regular.woff') format('woff'),
+        url('../font/CenturyGothic.eotUbuntu-Regular.ttf') format('truetype'),
+        url('../font/CenturyGothic.eotUbuntu-Regular.svg#Ubuntu-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
