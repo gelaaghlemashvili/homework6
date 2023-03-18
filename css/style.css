@@ -1,3 +1,4 @@
+/* ჰედერის დასაწყისი */
 .conteiner {
     
     margin: o auto;
@@ -47,6 +48,8 @@ header {
     font-size: 24px;
     font-family: 'Ubuntu';
 }
+/* ჰედერის დასასრული */
+/* სექციის დასაწყისი */
 
 .news {
     color: #27187F;
@@ -109,4 +112,57 @@ h1{
     display: flex;
     font-family: 'Ubuntu';
     width: 90%;
+}
+/* სექციის დასასრული */
+/* ფუტერის დასაწყისი */
+
+footer {
+    display: flex;
+    height: 504px;
+    background-color: #758BFD;
+    align-items: center;
+    justify-content: center;
+}
+.footerdiv {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    height: 202px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.icon {
+display: flex;
+flex-wrap: wrap;
+}
+h2 {
+    font-family: 'Century Gothic';
+    width: 100%;
+    font-size: 20px;
+    color: #00CAD7;
+}
+.footerdiv1 {
+    width: 20%;
+    gap: 12px;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    
+    
+}
+.maili {
+    font-family: 'Century Gothic';
+    width: 100%;
+    color: white;
+}
+
+.ft_text {
+    font-family: 'Century Gothic';
+    width: 100%;
+    color: white;
+}
+
+.facebook {
+    color: white;
+    font-size: 20px;
 }
