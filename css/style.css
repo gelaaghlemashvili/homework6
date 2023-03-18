@@ -1,27 +1,30 @@
 .conteiner {
-    max-width: 1440px;
+    
     margin: o auto;
     width: 100%;
-    display: flex;
+
 }
 
 header {
-display: flex;
-width: 100%;
-justify-content: space-around;
-align-items: center;
-height: 160px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 160px;
 }
+
 .nav1 {
     display: flex;
-    
+
 
 }
+
 .headerul {
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
+
 .divsearch {
     border: 2px solid #758BFD;
     width: 221px;
@@ -30,19 +33,80 @@ height: 160px;
     display: flex;
     align-items: center;
     justify-content: end;
-    
+
 }
+
 .search {
     color: #758BFD;
     font-size: 40px;
-    
+
 }
+
 .headera {
     color: #758BFD;
     font-size: 24px;
     font-family: 'Ubuntu';
 }
+
 .news {
     color: #27187F;
+
+}
+
+section {
+    height: 1051px;
+    background-color: #DDEAF8;
+    align-items: center;
+    display: flex;
     
+}
+
+.div1 {
+    width: 30%;
+    height: 333px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    gap: 33px;
+    
+    
+
+}
+
+h1{
+    width: 100%;
+    font-size: 32px;
+    color: #27187F;
+    font-family: 'Ubuntu';
+}
+
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    height: 822px;
+    
+}
+.cardsimg {
+    width: 90%;
+    height: 188px;
+    
+    
+}
+.cardstext {
+    font-size: 20px;
+    color: #133B3A;
+    display: flex;
+    font-family: 'Ubuntu';
+    width: 90%;
 }
