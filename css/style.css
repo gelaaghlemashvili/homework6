@@ -1,0 +1,48 @@
+.conteiner {
+    max-width: 1440px;
+    margin: o auto;
+    width: 100%;
+    display: flex;
+}
+
+header {
+display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+height: 160px;
+}
+.nav1 {
+    display: flex;
+    
+
+}
+.headerul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.divsearch {
+    border: 2px solid #758BFD;
+    width: 221px;
+    height: 55px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.search {
+    color: #758BFD;
+    font-size: 40px;
+    
+}
+.headera {
+    color: #758BFD;
+    font-size: 24px;
+    font-family: 'Ubuntu';
+}
+.news {
+    color: #27187F;
+    
+}
